@@ -136,9 +136,9 @@ class GeneticAlgorithm:
         plt.show()
         
 
-# Example usage
+
 if __name__ == "__main__":
-    csv_file = "cities.csv"  # Replace with your CSV file containing city name, latitude, and longitude
+    csv_file = "cities.csv"  
     ga = GeneticAlgorithm(csv_file)
     best_route, best_distance = ga.run_genetic_algorithm()
     print("Best Route:", [gene.name for gene in best_route])
