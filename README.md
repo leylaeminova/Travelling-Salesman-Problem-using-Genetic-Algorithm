@@ -14,4 +14,6 @@ Example
 You can try this algorithm using n number of ciites, along with their geographical coordinates.
 In provided example, cities.csv contains 7 cities in Azerbaijan and their latitude and longitude.
 The shortest path is illustrated like this:
+
+
 ![alt text](https://github.com/leylaeminova/Travelling-Salesman-Problem-using-Genetic-Algorithm/blob/master/shortest_path.png)
